@@ -44,7 +44,7 @@ deploy:
 integrations:
   notifications:
     - integrationName: email
-      type: email
+      type: projectTrigger
       recipients: 
         - ankul@shippable.com
         - ankulkumar001@gmail.com
