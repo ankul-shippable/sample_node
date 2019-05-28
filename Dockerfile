@@ -1,2 +1,2 @@
-FROM alpine
-RUN ls
+FROM busybox:latest
+ADD . /code
