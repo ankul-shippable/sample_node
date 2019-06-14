@@ -1,11 +1,18 @@
-var express = require("express"),
-    nano = require('nano')('http://localhost:5984'),
-    app = express();
+var express = require("express");
+var app = express();
+
+var PORT = 9123;
+
+app.use(express.static(__dirname + '/public'));
 
 app.get("/", function (req, res) {
-  res.send("Hey buddy_6!");
+  res.send("Hello from JFrog pipelines!");
 });
 
-app.listen(3000, function () {
-  console.log('Express listening on port 5984_15');
+app.get("/api", function (req, res) {
+  res.send({status: 200});
+});
+
+app.listen(PORT, function () {
+  console.log('Express listening on port: ', PORT);
 });

@@ -1,3 +1,0 @@
-echo truesdsfsd
-sadasdassadsa
-asdadaa3

@@ -1,21 +1,7 @@
 {
-  "name": "sample-node-couchdb",
-  "version": "0.0.0",
-  "description": "Testing CouchDB service",
-  "main": "index.js",
-  "scripts": {
-    "test": "grunt"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Shippable/sample_node.git"
-  },
-  "author": "Patrick Ellis",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Shippable/sample_node/issues"
-  },
-  "homepage": "https://github.com/Shippable/sample_node",
+  "name": "basic-nodejs-server",
+  "version": "1.0.0",
+  "description": "Basic nodejs server",
   "dependencies": {
     "express": "^4.2.0"
   }
