@@ -6,7 +6,7 @@ var PORT = 9123;
 app.use(express.static(__dirname + '/public'));
 
 app.get("/", function (req, res) {
-  res.send("Hello from JFrog pipelines_2");
+  res.send("Hello from JFrog pipelines_3");
 });
 
 app.get("/api", function (req, res) {
